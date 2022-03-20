@@ -1,0 +1,87 @@
+*{
+    box-sizing:border-box;
+        <!--genişliğimizin veya yüksekliğimizin border veya padding eklendiğinde değişmesini engeller bir resmimiz var diyelim buna border ve padding eklediğimizde resmin genişliği 100se bunun üstüne çıkıyor 100 de sabit kılmak için yapıyoruz -->
+    <!-- *{ }ifadesi tüm siteyi etkilesin anlamı taşır.-->
+}
+body{
+   
+    margin: 0;
+    padding: 0 ;
+    background-color: #dbdbdb;
+    font-family:'Montserrat', sans-serif;
+    }  
+
+#social{
+    
+    background-color: black;
+    color: white;
+    height: 60px;
+    width:100½; 
+    <!--boydan boya kaplasın-->
+    position: sticky;
+    top: 0;
+    <!--bu bar yapışsın yukarıdan 0 cm aşağıya-->
+    z-index: 1;
+    font-size: 18px;
+    text-align: right;
+    padding: 15px;
+    }
+
+font{
+    float: left;
+    <!--yazılar sayfa solundan başlasın-->
+    letter-spacing: 2px;
+    <!--yazılar arası boşluk bırakır-->
+    }
+
+Span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    }
+#social>i {
+    margin-right: 15px;
+    }
+#social>i:hover{
+    opacity: 0.7;
+    <!--ikonların üzerine geldiğimizde ikonlar opaklığının bir miktarını kaybetsin-->
+    }
+#container{
+    width: 80%;
+    margin: auto;
+    height: auto; 
+    }
+header{
+    width: 80
+    height: 250px;  
+    position: relative;
+    }
+#centered{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+#footer2
+    {
+    background-color: black;
+    color:white;
+    text-align: center;
+    }
+#adres1 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    }
+#iletisim{
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    text-align: center;
+    }
+#Hakkında{
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    text-align: center;
+    }
