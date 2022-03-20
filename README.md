@@ -1,0 +1,1 @@
+Css ile ilgili 1.ödev tamamlanmıştır.
